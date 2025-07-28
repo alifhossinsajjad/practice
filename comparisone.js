@@ -17,4 +17,4 @@ var applePrice = 400;
 var orangePrice = 300;
 var totalPrice = (applePrice >= orangePrice);
 
-console.log (totalPrice);
+console.log (totalPrice); 
