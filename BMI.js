@@ -1,4 +1,4 @@
-const BMI = 27.2;
+const BMI = 7.2;
 
 if (BMI < 18.5){
     console.log('you are underweight')
