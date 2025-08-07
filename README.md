@@ -44,79 +44,125 @@ Angular.js: ওয়েব অ্যাপ্লিকেশন তৈরির �
 📅 মোট সময়: ৩-৬ মাস (প্রতিদিন ২-৩ ঘণ্টা প্র্যাকটিস)
 
 🔰 ১ম - ২য় মাস: JavaScript Basics & Fundamentals
+
 ✅ Week 1: JavaScript পরিচিতি ও বেসিক সিনট্যাক্স
+
 🔹 JavaScript কি? কিভাবে কাজ করে?
+
 🔹 var, let, const এর ব্যবহার
+
 🔹 Data Types: string, number, boolean, null, undefined
+
 🔹 Operators (+, -, *, /, %, &&, ||, !)
 
 ✅ Week 2: Control Flow & Loops
+
 🔹 if-else, switch-case
+
 🔹 Loops: for, while, do-while
+
 🔹 break, continue
 
 ✅ Week 3: Functions & Scope
+
 🔹 Function Declaration & Expression
+
 🔹 Arrow Function (()=>{})
+
 🔹 Scope (var, let, const)
 
 ✅ Week 4: Arrays & Objects
+
 🔹 Array Methods: push(), pop(), map(), filter(), reduce()
+
 🔹 Object Methods: Object.keys(), Object.values(), Object.entries()
+
 🔹 ES6 Destructuring
 
 🎯 Projects:
+
 ✔ Calculator App
+
 ✔ Simple To-Do List
 
 🛠️ ৩য় - ৪র্থ মাস: Intermediate JavaScript & DOM
+
 ✅ Week 5: DOM Manipulation & Events
+
 🔹 document.querySelector(), getElementById()
+
 🔹 Events: click, keydown, keyup, mouseover
+
 🔹 Event Delegation & Form Validation
 
 ✅ Week 6: Higher Order Functions & Callbacks
+
 🔹 Callback Functions
+
 🔹 Array HOF (map(), filter(), reduce())
 
+
 ✅ Week 7: Asynchronous JavaScript
+
 🔹 Callback Hell & Promise Chaining
+
 🔹 fetch() API & HTTP Requests
+
 🔹 Async/Await
 
 ✅ Week 8: Local Storage & APIs
+
 🔹 Local Storage (setItem(), getItem())
+
 🔹 JSON Data Handle
 
 🎯 Projects:
+
 ✔ Weather App (API ব্যবহার করে)
+
 ✔ Notes App with Local Storage
 
 🔥 ৫ম - ৬ষ্ঠ মাস: Advanced JavaScript & Full-Stack
+
 ✅ Week 9: Object-Oriented Programming (OOP)
+
 🔹 Class & Constructor Function
+
 🔹 Prototype & Inheritance
 
 ✅ Week 10: Closures, IIFE, and ES6 Concepts
+
 🔹 Closures & Encapsulation
+
 🔹 IIFE ((function(){})())
 
 ✅ Week 11: Frontend Framework - React.js
+
 🔹 React Component & Props
+
 🔹 useState & useEffect Hooks
+
 🔹 React Router
 
 ✅ Week 12: Backend - Node.js & Express.js
+
 🔹 Express.js দিয়ে API বানানো
+
 🔹 MongoDB Database সংযোগ করা
 
 🎯 Final Projects:
+
 ✔ Full-Stack Blog Website
+
 ✔ Portfolio Website with React
 
+
 🌟 শেষ কথা:
+
 ✅ প্রতিদিন ২-৩ ঘণ্টা প্র্যাকটিস করলে ৩-৬ মাসে JavaScript-এ দক্ষ হয়ে উঠতে পারবে।
+
 ✅ React.js + Node.js শিখে Full-Stack Developer হিসেবে ক্যারিয়ার গড়তে পারবে!
+
 
 🌟 অন্যকিছু জানার থাকলে নক দিতে পারেন
 
@@ -215,137 +261,219 @@ JavaScript Learning Roadmap (Beginner to Advanced) 🚀
 If you want to master JavaScript from scratch to advanced, follow this structured roadmap.
 
 1️⃣ Basics of JavaScript (Beginner Level)
+
 🎯 Goal: Learn JavaScript fundamentals and syntax.
 
 ✅ Step 1: JavaScript Introduction
+
 🔹 What is JavaScript?
+
 🔹 Why should you learn JavaScript?
+
 🔹 How JavaScript works in the browser?
 
 ✅ Step 2: Setting Up Your Environment
+
 🔹 Install VS Code (or any code editor).
+
 🔹 Use Google Chrome for debugging.
+
 🔹 Learn to use the Console (F12 > Console tab).
 
 ✅ Step 3: JavaScript Basics
+
 🔹 Variables (var, let, const)
+
 🔹 Data types (string, number, boolean, null, undefined, object, symbol)
+
 🔹 Operators (+, -, *, /, %, ++, --)
+
 🔹 Conditional statements (if-else, switch)
+
 🔹 Loops (for, while, do-while)
+
 🔹 Functions (function declaration, function expression, arrow functions)
 
 ✅ Step 4: Working with Arrays & Objects
+
 🔹 Arrays (push(), pop(), shift(), unshift(), map(), filter(), reduce())
+
 🔹 Objects (key-value pairs, Object.keys(), Object.values(), Object.entries())
+
 🔹 Looping through objects (for...in)
 
 ✅ Step 5: DOM Manipulation (JavaScript & HTML)
+
 🔹 Selecting elements (getElementById(), querySelector())
+
 🔹 Modifying content (innerText, innerHTML, textContent)
+
 🔹 Changing styles (style.color, classList.add())
+
 🔹 Event handling (onclick, addEventListener())
 
 💡 Project Idea: Build a simple To-Do List using HTML, CSS & JavaScript.
 
 2️⃣ Intermediate JavaScript (Core Concepts)
+
 🎯 Goal: Understand advanced JavaScript concepts & APIs.
 
+
 ✅ Step 6: Advanced Functions & ES6 Features
+
 🔹 Higher-order functions (map(), filter(), reduce())
+
 🔹 Callbacks & Promises (async, await)
+
 🔹 Spread & Rest operators (...)
+
 🔹 Destructuring ({ name, age } = object)
+
 🔹 Template literals (`Hello ${name}`)
 
 ✅ Step 7: Asynchronous JavaScript (AJAX & Fetch API)
+
 🔹 Synchronous vs Asynchronous JavaScript
+
 🔹 Fetch API (fetch(), then(), catch())
+
 🔹 Handling API responses (JSON.parse(), JSON.stringify())
+
 🔹 Async/Await for cleaner asynchronous code
 
 💡 Project Idea: Fetch & display weather data from an API.
 
 3️⃣ Advanced JavaScript (Deep Dive)
+
 🎯 Goal: Learn in-depth JavaScript topics & prepare for frameworks.
 
+
 ✅ Step 8: Object-Oriented JavaScript (OOP in JS)
+
 🔹 this keyword
+
 🔹 Constructor functions
+
 🔹 Prototypes & Inheritance
+
 🔹 Classes (class, extends, super)
 
 ✅ Step 9: JavaScript Modules & Web Storage
+
 🔹 import & export for modular code
+
 🔹 LocalStorage & SessionStorage (setItem(), getItem(), removeItem())
 
 ✅ Step 10: Error Handling & Debugging
+
 🔹 try...catch...finally
+
 🔹 Debugging with Chrome DevTools
 
 💡 Project Idea: Build a Note-Taking App that saves notes in LocalStorage.
 
 4️⃣ JavaScript Frameworks & Libraries
+
 🎯 Goal: Learn modern JavaScript frameworks for real-world applications.
 
 ✅ Step 11: Introduction to JavaScript Frameworks
+
 🔹 React.js (Most popular for frontend development)
+
 🔹 Node.js (For backend development)
 
 ✅ Step 12: Learn React.js
+
 🔹 Components & Props
+
 🔹 State & Hooks (useState, useEffect)
+
 🔹 React Router for navigation
 
 💡 Project Idea: Build a Movie Search App using React & an API.
 
 ✅ Step 13: Learn Node.js & Express.js (Backend Development)
+
 🔹 Build a simple API with Express.js
+
 🔹 Connect to a database (MongoDB)
 
 💡 Project Idea: Build a User Authentication System with JWT authentication.
 
 5️⃣ Master JavaScript (Bonus Topics)
+
 🎯 Goal: Become a JavaScript expert!
 
+
 ✅ Step 14: Learn TypeScript (Optional but Useful)
+
 🔹 Strongly typed JavaScript
+
 🔹 Interfaces & Type Annotations
 
+
 ✅ Step 15: Learn Testing in JavaScript
+
 🔹 Jest (for unit testing)
+
 🔹 Cypress (for end-to-end testing)
 
 ✅ Step 16: Learn Web Performance Optimization
+
 🔹 Lazy loading
+
 🔹 Debouncing & Throttling
+
 🔹 Minification & Compression
 
 💡 Project Idea: Optimize a website’s loading speed and test performance.
 
 🛠 Tools & Resources for Learning JavaScript
+
 🔹 JavaScript Documentation – MDN Docs
+
 🔹 Free Online Courses – freeCodeCamp | JavaScript.info
+
 🔹 Practice Problems – LeetCode | CodeWars
+
 🔹 YouTube Tutorials – Traversy Media | Academind
 
+
 🔥 JavaScript Learning Plan (Step-by-Step Timeline)
+
 📅 Week	🎯 Learning Topics
+
 Week 1	JavaScript Basics (Variables, Data Types, Operators)
+
 Week 2	Functions, Loops, Conditionals
+
 Week 3	Arrays & Objects
+
 Week 4	DOM Manipulation & Events
+
 Week 5	ES6 Features (Arrow Functions, Spread, Destructuring)
+
 Week 6	Fetch API & Asynchronous JS
+
 Week 7	Object-Oriented Programming (OOP)
+
 Week 8	JavaScript Modules & LocalStorage
+
 Week 9	JavaScript Frameworks (React.js Basics)
+
 Week 10	Advanced React (Hooks, Router, API calls)
+
 Week 11	Backend Development with Node.js & Express
+
 Week 12	Full-Stack JavaScript (React + Node.js + MongoDB)
+
 Final Advice 🏆
 ✔️ Build projects – Learning JavaScript is best with real practice.
+
 ✔️ Stay updated – JavaScript is evolving, so keep learning.
+
 ✔️ Solve coding challenges – Practice on CodeWars, LeetCode, or HackerRank.
+
 ✔️ Read Documentation – MDN Docs are your best friend.
+
 ✔️ Never stop learning! 🚀
