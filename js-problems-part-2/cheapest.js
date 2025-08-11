@@ -22,3 +22,30 @@ function getCheapestMobiles (mobiles){
 
 const cheap = getCheapestMobiles(mobiles);
 console.log('the cheapest mobiles :', cheap);
+
+
+
+
+const phones = [
+    {name : 'Samsung', price : 20000, camera : '12mp', color : 'black' },
+    {name : 'I-phone', price : 120000, camera : '12mp', color : 'black' },
+    {name : 'Oppo', price : 33000, camera : '12mp', color : 'black' },
+    {name : 'Xaomi', price : 26000, camera : '12mp', color : 'black' },
+    {name : 'Pixel', price : 28000, camera : '12mp', color : 'black' },
+    {name : 'Asus', price : 25000, camera : '12mp', color : 'black' },
+    {name : 'Redmi', price : 23000, camera : '12mp', color : 'black' },
+    {name : 'Huwai', price : 35000, camera : '12mp', color : 'black' }
+]
+
+function getMoreExpensive (phones){
+    let max = phones[0];
+    for (const phone of phones){
+        if(phone.price < max.price){
+            max = phones
+        }
+    }
+    return max;
+}
+
+const expensive = getMoreExpensive(phones);
+console.log('More Expensive phone is :', expensive);
