@@ -1,17 +1,17 @@
-// const heights = [32, 34, 564, 67, 78, 90, 343, 56, 78, 33, 55, 76, 88, 56]
+const heights = [32, 34, 564, 67, 78, 90, 343, 56, 78, 33, 55, 76, 88, 56]
 
-// function getMax (numbers){
-//     let max = numbers[0];
-//     for (const num of numbers){
-//         if(num > max){
-//             max = num;
-//         }
-//     }
-//     return max;
-// }
+function getMax (numbers){
+    let max = numbers[0];
+    for (const num of numbers){
+        if(num > max){
+            max = num;
+        }
+    }
+    return max;
+}
 
-// const max = getMax (heights);
-// console.log('max of number is:', max);
+const max = getMax (heights);
+console.log('max of number is:', max);
 
 
 
