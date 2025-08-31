@@ -6,7 +6,7 @@ function oddAverage (numbers){
             odd.push(number)
         }
      }
-    //  console.log(odd);
+     console.log(odd);
     let sum = 0;
     for ( const number of numbers){
         sum += number;

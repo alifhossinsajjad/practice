@@ -1,4 +1,3 @@
-
 /***
  * Problem-05: Exam Result Report Generator
 ⚠️ Function Name Must be resultReport()
@@ -39,41 +38,33 @@ SAMPLE INPUT                        SAMPLE OUTPUT ( object / string )
 
  */
 
+function resultReport(marks) {
+  // You have to write your code here
 
+  if (!Array.isArray(marks) || marks === 0 ) {
+    return "Invalid";
+  }
 
+  let totalMark = 0;
+  let totalSubjectPass = 0;
+  let totalSubjectFail = 0;
 
-function  resultReport( marks ) {
-          // You have to write your code here
+  for (const mark of marks) {
+    totalMark = totalMark + mark;
+    if (mark >= 40) {
+      totalSubjectPass++;
+    } else {
+      totalSubjectFail++;
+    }
+  }
 
-          if(!Array.isArray(marks)){
-            return "Invalid"
-          }
+  const finalMark = Math.round(totalMark / marks.length);
 
-          let totalMark = 0;
-          let totalSubjeatPass = 0;
-          let totalSubjeatfail = 0;
-
-          for (const mark of marks){
-            totalMark = totalMark + mark;
-            if(mark >= 40){
-                totalSubjeatPass++
-            }
-            else {
-                totalSubjeatfail++;
-            }
-          }
-
-          const finalMark = Math.round(totalMark /marks.length);
-          
-          return {
-            finalScore: finalMark,
-            pass: totalSubjeatPass,
-            fail: totalSubjeatfail,
-          }
-
+  return {
+    finalScore: finalMark,
+    pass: totalSubjectPass,
+    fail: totalSubjectFail,
+  }
 }
 
-
-const mark = resultReport ([99, 87, 67, 12 ,87])
-
-console.log(mark);
+console.log(resultReport([]));

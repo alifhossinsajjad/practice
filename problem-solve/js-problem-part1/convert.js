@@ -1,4 +1,4 @@
-const { ImCalculator } = require("react-icons/im");
+
 
 function inchToFeet (inch){
     const feet = inch / 12 ;

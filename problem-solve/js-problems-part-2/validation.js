@@ -1,6 +1,4 @@
-const { lstat } = require("fs");
-const { get } = require("http");
-const { resourceUsage } = require("process");
+
 
 function multiply (num1, num2){
     if (typeof num1 !== 'number' || typeof num2 !== 'number'){

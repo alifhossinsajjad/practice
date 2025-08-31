@@ -16,7 +16,7 @@ const products = [
 ]
 
 
-function matchedProducts (proucts, search){
+function matchedProducts (products, search){
     const matched = [];
     for (const product of products){
         if(product.name.toLowerCase().includes(search.toLowerCase())){

@@ -1,8 +1,8 @@
 const numbers = [2, 4, 1, 5, 8, 3, 20]
 
-// console.log(numbers);
-// numbers.sort();
-// console.log(numbers)
+console.log(numbers);
+numbers.sort();
+console.log(numbers)
 
 
 
