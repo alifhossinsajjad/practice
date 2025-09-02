@@ -128,7 +128,7 @@ console.log(greet('alif'));
 // array
 
 function showArray (arr = []){
-    return arr.join(", ");
+    return arr.join(" | ");
 }
 console.log(showArray());
 console.log(showArray([2,3,4,5]))
