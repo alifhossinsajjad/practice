@@ -25,3 +25,10 @@ console.log(additon(34,678));
 const goodStudent = (name = "Good Student") => `Hello, ${name}`;
 
 console.log(goodStudent("Alif Mia"))
+
+const seyHello = () => "hello , Alif"
+console.log(seyHello());
+
+
+const squareNUmber = x  => x*x;
+console.log(squareNUmber(90));
