@@ -1,3 +1,12 @@
+
+
+/**
+ * Array and object Destructuring
+ */
+
+
+
+
 const frineds = ["alif", "saiful","midul","arfan","lifan"]
 
 const [frined1,frined2,frined3] = frineds;

@@ -1,3 +1,11 @@
+
+/**
+ * Six JavaScript Fundamentals that you need to know
+ */
+
+
+
+
 const friends = ["alif","lifan", "saiful", "midul"]
 
 // friends.push("arfan")
